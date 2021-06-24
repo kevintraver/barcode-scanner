@@ -1,0 +1,8 @@
+.product-list .img-wrapper {
+  width: 100%;
+  padding: 16px;
+}
+
+.product-list .img {
+  border-radius: 8px;
+}
