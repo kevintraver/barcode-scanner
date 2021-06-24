@@ -22,3 +22,14 @@ Why not try to leverage off the full capability of a standard Android device? Th
 1. Camera will not scan at distance range like laser
 
 
+### To run code
+
+1. `yarn install`
+2. `yarn run build`
+3. Then either follow instructions for installing on iOS device here
+https://capacitorjs.com/docs/ios
+Or follow instructions for installing on Android device here
+https://capacitorjs.com/docs/android
+
+
+
