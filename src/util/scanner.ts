@@ -60,7 +60,8 @@ const didUserGrantPermission = async () => {
 };
 
 export const getScanContent = async () => {
-  if (didUserGrantPermission()) {
+  const permissionGranted = await didUserGrantPermission()
+  if (permissionGranted) {
     BarcodeScanner.hideBackground(); // make background of WebView transparent
     document.body.classList.add("qrscanner");
     const result = await BarcodeScanner.startScan(); // start scanning and wait for a result
